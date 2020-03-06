@@ -4,6 +4,7 @@
 ### Что было:
 Потворили if-else оператор
 Обсудили методы, аргументы методов. Методы могут быть void или возвращать какое-то значение.
+В https://github.com/DmitriiPodlesnykh/java-for-beginner/blob/master/first-app/src/Main.java пример c прошедшего урока
 
 ### Что почитать:
 http://proglang.su/java/operator-if-else
