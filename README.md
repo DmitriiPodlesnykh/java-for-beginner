@@ -14,25 +14,7 @@ http://proglang.su/java/methods до "Перегрузка методов"
 Написать программу, которая проверяет корректность формулы сокращенного умножение: 
 (a + b)^2 = a^2 + 2ab + b^2
 Можно использовать шаблон программы:
-<pre><code>
-public class Main {
-    public static void main(String[] args)
-    {
-        int a = 1000;
-        int b = 2;
-        int leftSideResult;
-        //leftSideResult = здесь вызываем написанный метод, который считает левую часть и возвращает результат
-        int rightSideResult;
-        //rightSideResult = здесь вызываем написанный метод, который считает правую часть и возвращает результат
-        System.out.println("left side = ");
-        System.out.println(leftSideResult);
-        System.out.println("right side = ");
-        System.out.println(rightSideResult);
-        //вот здесь выводим на экран, true ЕСЛИ левая часть равна правой, иначе false
-    }
-
-}
-</code></pre>
+https://gist.github.com/DmitriiPodlesnykh/414f8f930421a57882ae74fe0754fbf4
 
 ## 03.03.2020
 ### Что было:
