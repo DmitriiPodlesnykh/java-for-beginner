@@ -1,5 +1,20 @@
 # История:
 
+## 13.03.2020
+### Что было:
+Познакомились с массивами
+Рассмотрели что такое циклы и как реализован цикл for(int i=0; i<array.length; i++) в Java.
+
+### Что почитать:
+https://javarush.ru/groups/posts/for-v-java - цикл for
+https://javarush.ru/groups/posts/massivy-java - прочитать про одномерные массивы
+http://developer.alexanderklimov.ru/android/java/for.php тоже массивы
+
+### Рекомендуется выполнить:
+https://gist.github.com/DmitriiPodlesnykh/63ab0ce1e030e659ba9f2bb0e10cbebd - воспользоваться шаблоном 
+и реализовать логику работы методов. Как проверять: Вызывать эти методы в Main#main(в Main классе main метода) и выводить реальтаты в консоль
+
+
 ## 10.03.2020
 ### Что было:
 Узнали, что такое класс. Создали класс Calculate, который содержит методы для арифметических действий с числами.
