@@ -8,6 +8,9 @@
 http://developer.alexanderklimov.ru/android/java/package.php
 https://javarush.ru/groups/posts/1988-modifikatorih-dostupa-private-protected-default-public
 
+Для тех, кто хотел бы создать себе репозиторий на GitHub видео, как это можно сделать, не выходя из Intellij Idea
+https://www.youtube.com/watch?v=mf2-MOl0VXY
+
 ### Рекомендуется выполнить:
 Создать пакет lesson20200331. Внутри создать два пакета: actor и object. Внутри actor создать класс Person c методами eat() и drink(). Внурти object создать классы Table, Chair, Sofa. Внутри каждого класса создать метод getHeight() который выводит на экран высоту предмета. В каждом классе должен быть свой модификатор доступа. Попробовать вызвать все классы в main  
 
