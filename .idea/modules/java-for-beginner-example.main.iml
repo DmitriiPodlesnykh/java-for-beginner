@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="java-for-beginner-example:main" external.linked.project.path="$MODULE_DIR$/../../java-for-beginner-example" external.root.project.path="$MODULE_DIR$/../../java-for-beginner-example" external.system.id="GRADLE" external.system.module.group="com.tsystems.vrn" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../java-for-beginner-example/build/classes/java/main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../java-for-beginner-example/src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../java-for-beginner-example/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../java-for-beginner-example/src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
