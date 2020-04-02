@@ -6,8 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-for-beginner-example.iml" filepath="$PROJECT_DIR$/.idea/modules/java-for-beginner-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-for-beginner-example.main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-for-beginner-example.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-for-beginner-example.test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-for-beginner-example.test.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-for-beginner.main.iml" filepath="$PROJECT_DIR$/.idea/modules/java-for-beginner.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/java-for-beginner.test.iml" filepath="$PROJECT_DIR$/.idea/modules/java-for-beginner.test.iml" />
     </modules>
   </component>
 </project>
