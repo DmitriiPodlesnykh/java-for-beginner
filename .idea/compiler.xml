@@ -4,6 +4,8 @@
     <bytecodeTargetLevel>
       <module name="java-for-beginner-example.main" target="1.8" />
       <module name="java-for-beginner-example.test" target="1.8" />
+      <module name="java-for-beginner.main" target="1.8" />
+      <module name="java-for-beginner.test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
