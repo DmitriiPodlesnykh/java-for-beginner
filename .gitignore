@@ -1,4 +1,7 @@
 
 *.iml
-*idea
 */out/
+/.idea/
+/java-for-beginner-example/.gradle/
+/java-for-beginner-example/build/
+/java-for-beginner-example/.idea/
