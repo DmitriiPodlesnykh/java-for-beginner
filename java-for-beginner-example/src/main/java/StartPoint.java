@@ -1,17 +1,25 @@
-import actor.Person;
-import animal.Cat;
+import lesson.ClassLesson;
+import lesson.InstanceIntroLesson;
 
+/**
+ * Класс содержащий main метод.
+ */
 public class StartPoint
 {
-    public static void main(String[] args) {
-        int currentCatWeight = Cat.showWeight();
-        System.out.println(currentCatWeight);
-
-        Person.hiCat();
-        Person.changeCatName("Мурка");
-        Person.hiCat();
-
-        Cat.drink();
-        Cat.eat(3);
+    /**
+     * Начало выполнения программ.
+     * <p>
+     * В этом методе вызываются классы-уроки-примеры.
+     * <p>
+     * Вариант использования:
+     * Выбираем интересующий класс, остальные комментируем.
+     *
+     * @param args массив входящих параметров.
+     */
+    public static void main(String[] args)
+    {
+        ClassLesson.startLessonExample(); //02.04.2020
+        InstanceIntroLesson.startLessonExample(); //07.04.2020
+        //ПримерЗакоментированогоУрокаЧтоБыОнНеВыполнялся.startLessonExample()
     }
 }
