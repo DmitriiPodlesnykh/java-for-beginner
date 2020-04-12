@@ -43,7 +43,7 @@ java-for-beginner-example\src\main\java\StartPoint.java
 Добавить static поля: порода, кличка, возраст, пол, любимая игрушка(тип String). Каждому из полей присвоить значения по умолчанию.
 Добавить методы:
 1. public static void gaf() - выводит в консоль любое сообщение от собаки
-1. public static String getAge() - возвращает возраст собаки
+1. public static int getAge() - возвращает возраст собаки
 1. public static void appendYear(int count) - добавляет собаке указанное количество лет. 
 Если итоговое значение больше 200, то в консоль выводится сообщение "Что-то здесь не так" и возраст остается прежним.
 1. public static boolean guessAge(int[] optionArray) - принимает на вход массив вариантов. 
