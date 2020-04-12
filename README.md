@@ -6,12 +6,17 @@
 
 ### Что почитать:
 https://www.youtube.com/watch?v=7tuK9UgCSjs&t=265s - What is null and a null pointer exception? (Java Tutorial)
+https://www.youtube.com/watch?v=nM2QF3r_PCM - ссылочные типы данных
+
+### Рекомендуется выполнить:
+Если не создан класс City, то создать. Добавить поле key(по умолчанию "spb"). В методе main создать массив длинной 10 тип City. Заполнить первые 3 элемента экземплярами класса City с именами "msk", "vrn", "spb". Вывести на экран все значения key, присутствующие в массиве.
 
 ## 07.04.2020
 ### Что было:
 Начали разбираться с созданием экземпляров классов. Сравнили статические и не статические поля. Познакомились с конструктором класса.
 
 ### Что почитать:
+https://vertex-academy.com/tutorials/ru/klassy-v-java/ - классы и экземляры классов в java
 https://vertex-academy.com/tutorials/ru/modifikator-static-v-java/ - модификатор java для полей
 https://vertex-academy.com/tutorials/ru/konstruktory-slovo-v-java/ - конструкторы
 
