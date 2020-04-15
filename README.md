@@ -1,5 +1,22 @@
 # История:
 
+## 14.04.2020
+### Что было:
+Дефолтный конструктор. Конструкторы с параматрами. Ключевое слово this. Наследование от метода Object. Метод toString(). 
+
+### Что почитать:
+http://developer.alexanderklimov.ru/android/java/object.php - Object.class
+https://www.javatpoint.com/understanding-toString()-method - toString()
+https://vertex-academy.com/tutorials/ru/konstruktory-slovo-v-java/ - Конструктор
+https://javarush.ru/groups/posts/konstruktory-v-java - Еще про конструктор
+https://javarush.ru/groups/posts/608-kljuchevoe-slovo-this-v-primerakh - ключевое слово this
+
+### Рекомендуется выполнить:
+Реализовать класс Street, явно наследовать от класса Object. Добавить поля name, description, key. реализовать 3 контруктора:
+ без аргументов, со всеми агрументами, только с полем name. Перепределить метод toString(). 
+ Создать массив с 10 экземплярами класса Street. Вывести информацию о каждой из улиц в консоль, используя метод toString().
+  При создании нового экземпляра класса, должно выводиться новое сообщение: "New street in the our city!".
+
 ## 09.04.2020
 ### Что было:
 Разобрались со ссылочными типами данных. что такое null значение.

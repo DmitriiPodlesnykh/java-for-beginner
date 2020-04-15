@@ -1,4 +1,4 @@
-import lesson.NullLesson;
+import lesson.ConstructorLesson;
 
 /**
  * Класс содержащий main метод.
@@ -19,7 +19,10 @@ public class StartPoint
     {
         //ClassLesson.startLessonExample(); //02.04.2020
         //InstanceIntroLesson.startLessonExample(); //07.04.2020
-        NullLesson.startLessonExample();//09.04.2020
+        //NullLesson.startLessonExample();//09.04.2020
+        ConstructorLesson.startLessonExample();
+
         //ПримерЗакоментированогоУрокаЧтоБыОнНеВыполнялся.startLessonExample()
     }
+
 }
