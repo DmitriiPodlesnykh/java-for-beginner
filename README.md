@@ -1,5 +1,21 @@
 # История:
 
+## 16.04.2020
+### Что было:
+Переопределение методов. Метод equals(Object o)
+
+### Что почитать:
+https://www.geeksforgeeks.org/difference-equals-method-java/
+https://javarush.ru/groups/posts/equals-java-sravnenie-strok
+https://www.youtube.com/watch?v=m7vFGL-N9eY
+
+### Рекомендуется выполнить:
+1. В классе Street переопределить метод equals. 
+1. Создать массив из 15 улиц, которые могут повторятся.
+1. Написать метод, public int checkStreetCopiesCount(Street[] array, Street street),
+который количество эквивалентных улиц, найденных в массиве. (использовать цикл for 1 раз).
+
+
 ## 14.04.2020
 ### Что было:
 Дефолтный конструктор. Конструкторы с параматрами. Ключевое слово this. Наследование от метода Object. Метод toString(). 
