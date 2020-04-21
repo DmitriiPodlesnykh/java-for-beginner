@@ -1,6 +1,6 @@
 package animal;
 
-public class Tiger
+public class Tiger extends Animal
 {
     /**
      * Статическое поле. Едино для всех созданных экземпляров тигров

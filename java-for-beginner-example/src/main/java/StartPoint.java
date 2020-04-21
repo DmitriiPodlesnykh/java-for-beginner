@@ -1,4 +1,4 @@
-import lesson.EqualsLesson;
+import lesson.InheritLesson;
 
 /**
  * Класс содержащий main метод.
@@ -21,7 +21,9 @@ public class StartPoint
         //InstanceIntroLesson.startLessonExample(); //07.04.2020
         //NullLesson.startLessonExample();//09.04.2020
         //ConstructorLesson.startLessonExample();
-        EqualsLesson.startLessonExample();
+        //EqualsLesson.startLessonExample();
+
+        InheritLesson.startLessonExample();
 
         //ПримерЗакоментированогоУрокаЧтоБыОнНеВыполнялся.startLessonExample()
     }

@@ -5,7 +5,7 @@ import java.util.Objects;
 /**
  * Наследник класса Object. Как и все классы неявно в java.
  */
-public class Sheep extends Object
+public class Sheep extends Animal
 {
     private String name = "default name";
 
@@ -13,7 +13,8 @@ public class Sheep extends Object
 
     public Sheep()
     {
-        System.out.println("Hi!!");
+        super();
+        System.out.println("Hi!! Sheep constructor");
     }
 
     public Sheep(String newName, int countLegs)
@@ -64,5 +65,21 @@ public class Sheep extends Object
         {
             return false;
         }
+    }
+
+    public void drink()
+    {
+        System.out.println("sheep drink");
+    }
+
+
+    public void drink(String a)
+    {
+
+    }
+
+    public void doIt()
+    {
+
     }
 }
