@@ -1,5 +1,20 @@
 # История:
 
+## 23.04.2020
+### Что было:
+1. Try-catch-finally
+1. instance of
+1. Boxing/unboxing(факультативно)
+
+### Что почитать:
+https://javarush.ru/groups/posts/2018-kak-rabotaet-operator-instanceof - instanceOf
+https://www.w3schools.com/java/java_try_catch.asp - try catch finally(до throws)
+http://developer.alexanderklimov.ru/android/java/exception.php - try catch finally(до throws)
+https://habr.com/en/post/329498/ Boxing/unboxing(факультативно). Сейчас JDK 8+
+
+### Рекомендуется выполнить:
+Создать 
+
 ## 21.04.2020
 ### Что было:
 1. Наследование классов

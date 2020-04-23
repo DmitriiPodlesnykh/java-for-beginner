@@ -52,12 +52,12 @@ public class Sheep extends Animal
         }
         if (o == null || getClass() != o.getClass())
         {
-            System.out.println("parameter 0 = " +  o);
+            System.out.println("parameter 0 = " + o);
             return false;
         }
 
         final Sheep sheep = (Sheep)o;
-        if (this.countLegs == sheep.countLegs && Objects.equals(this.name,sheep.name))
+        if (this.countLegs == sheep.countLegs && Objects.equals(this.name, sheep.name))
         {
             return true;
         }
@@ -72,7 +72,6 @@ public class Sheep extends Animal
         System.out.println("sheep drink");
     }
 
-
     public void drink(String a)
     {
 
@@ -80,6 +79,6 @@ public class Sheep extends Animal
 
     public void doIt()
     {
-
+        System.out.println("doIT");
     }
 }
