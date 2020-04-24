@@ -81,4 +81,29 @@ public class TryCatchLesson
             System.out.println("finnaly");
         }
     }
+
+    /**
+     * Фильруем массив, возвращаем новый массив содержащий только экземпляры класса Sheep.
+     *
+     * @param animals массив потомков Animal. Может содержать Tiger и Sheep.
+     * @return массив содежащий только экземпляры класса Sheep из массива.
+     */
+    public static Sheep[] filterOnlySheep(Animal[] animals)
+    {
+        return null;
+    }
+
+    /**
+     * Определяем, какое животное нам прислали вторым аргументом, фильтруем массив элементов, исключая животных других типов.
+     * + в конце добавляем новое животное.
+     *
+     * @param animals массив потомков Animal. Может содержать Tiger и Sheep.
+     * @param newAnimal новое животное
+     *
+     * @return массив содежащий только экземпляры класса Sheep или Tiger из массива + новый элемент.
+     */
+    public static Animal[] filterOnlySelectedAnimal(Animal[] animals, Animal newAnimal)
+    {
+        return null;
+    }
 }

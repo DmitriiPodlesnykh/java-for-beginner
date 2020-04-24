@@ -13,7 +13,13 @@ http://developer.alexanderklimov.ru/android/java/exception.php - try catch final
 https://habr.com/en/post/329498/ Boxing/unboxing(факультативно). Сейчас JDK 8+
 
 ### Рекомендуется выполнить:
-Создать 
+Проверить, что у вас есть классы Animal, Sheep, Tiger. Если нет - создать.
+Написать реализацию методов, которые можно посмотреть в классе TryCatchLesson:
+* lesson.TryCatchLesson.filterOnlySheep
+* lesson.TryCatchLesson.filterOnlySelectedAnimal
+Создать несколько массивов Animal c разным набором данных и для каждого из них вызвать
+ реализованные методы. Полученные результаты выполнения методов выводить на экран.
+
 
 ## 21.04.2020
 ### Что было:
