@@ -24,4 +24,6 @@ public abstract class Animal
     {
         System.out.println("animal run");
     }
+
+    public abstract boolean isCanSpeak();
 }

@@ -4,6 +4,8 @@ import animal.Animal;
 import animal.Sheep;
 import animal.Tiger;
 
+import java.util.Arrays;
+
 public class TryCatchLesson
 {
     /**
@@ -16,6 +18,9 @@ public class TryCatchLesson
                 new Sheep(),
                 new Sheep("name 1234") };
         speakWithAnimals(animals);
+
+        Sheep[] result = filterOnlySheep(animals);
+        System.out.println(Arrays.toString(result));
     }
 
     /**
@@ -90,7 +95,28 @@ public class TryCatchLesson
      */
     public static Sheep[] filterOnlySheep(Animal[] animals)
     {
-        return null;
+        Sheep[] result = new Sheep[0];
+
+        for (Animal animal :animals)
+        {
+            if(animal instanceof Sheep)
+            {
+                result = prepareNewArray(result);
+                Sheep sheep = (Sheep)animal;
+                result[result.length-1] = sheep;
+            }
+        }
+        return result;
+    }
+
+    private static Sheep[] prepareNewArray(Sheep[] oldArray)
+    {
+        Sheep[] result = new Sheep[oldArray.length+1];
+        for (int j = 0; j<oldArray.length; j++)
+        {
+            result[j] = oldArray[j];
+        }
+        return result;
     }
 
     /**
@@ -104,6 +130,7 @@ public class TryCatchLesson
      */
     public static Animal[] filterOnlySelectedAnimal(Animal[] animals, Animal newAnimal)
     {
+        //if (newAnimal.getClass() == animal.getClass())
         return null;
     }
 }

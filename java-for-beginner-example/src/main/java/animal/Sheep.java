@@ -72,6 +72,12 @@ public class Sheep extends Animal
         System.out.println("sheep drink");
     }
 
+    @Override
+    public boolean isCanSpeak()
+    {
+        return true;
+    }
+
     public void drink(String a)
     {
 

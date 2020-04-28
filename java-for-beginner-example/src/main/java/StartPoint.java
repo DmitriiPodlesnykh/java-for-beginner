@@ -1,3 +1,4 @@
+import lesson.AbstractClassLesson;
 import lesson.TryCatchLesson;
 
 /**
@@ -25,6 +26,9 @@ public class StartPoint
         //InheritLesson.startLessonExample();
 
         TryCatchLesson.startLessonExample();
+        AbstractClassLesson.startLessonExample();
+
+
 
         //ПримерЗакоментированогоУрокаЧтоБыОнНеВыполнялся.startLessonExample()
     }
