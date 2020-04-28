@@ -1,5 +1,18 @@
 # История:
 
+## 28.04.2020
+### Что было:
+1. abstract method
+1. arrays
+1. разбирали дз lesson.TryCatchLesson.filterOnlySheep. Метод реализован.
+
+### Что почитать:
+http://developer.alexanderklimov.ru/android/java/abstract.php - абстрактные классы и методы
+https://javarush.ru/groups/posts/1973-abstraktnihe-klassih-v-java-na-konkretnihkh-primerakh - абстрактные классы и методы
+
+### Рекомендуется выполнить:
+Попробовать сделать предыдущую домашнюю работу.
+
 ## 23.04.2020
 ### Что было:
 1. Try-catch-finally
