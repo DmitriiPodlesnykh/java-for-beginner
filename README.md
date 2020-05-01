@@ -1,5 +1,34 @@
 # История:
 
+## 30.04.2020
+### Что было:
+1. interface
+
+### Что почитать:
+https://www.w3schools.com/java/java_interface.asp
+https://javarush.ru/groups/posts/1981-dlja-chego-v-java-nuzhnih-interfeysih
+https://www.geeksforgeeks.org/difference-between-abstract-class-and-interface-in-java/
+
+### Рекомендуется выполнить:
+Создать класс с домашним заданием. Например IntarfaceLessonHW. Добавить метод public static void run().
+Создать интерфейс Repairable с методомами void repair(int cash); и boolean isNeedToRepair();
+Для классов Street, Plane и Car имплементировать новый интерфейс. Реализовать поведение:
+1. В классах Plane и Car создаем переменные boolean isNeedRepair = true;
+1. Для Car в методе repair: делаем проверку, если cash > 10, 
+выводим сообщение "Отремонтированно" в консоль и меняем значение переменной isNeedRepair, иначе "Не хватает денег"
+1. Для Street в методе repair выводим сообщение "Не хватает денег", не зависимо от внесенной суммы.
+1. Для Plane: 
+- Создаем переменную класса int costOfRepair=500 
+-  в методе repair проверяем, хватает ли нам внесенной суммы.
+- если хватает, меняем значение переменной isNeedRepair.
+- Если не хватает, обновляем значение переменной по формуле costOfRepair = costOfRepair-cash.
+Выводим сообщение в консоль, что нужны еще деньги.
+
+В методе IntarfaceLessonHW создать массив типа Repairable, поместить несколько Street, Car, Plane. 
+В том же методе создать переменную cash = 100000.
+Пройтись в цикле по всем объектам и попытаться их отремонтировать.
+При каждом ремонте, уменьшать значение переменной сash
+ 
 ## 28.04.2020
 ### Что было:
 1. abstract method
