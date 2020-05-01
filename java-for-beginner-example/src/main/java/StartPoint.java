@@ -1,5 +1,4 @@
-import lesson.AbstractClassLesson;
-import lesson.TryCatchLesson;
+import lesson.InterfaceLesson;
 
 /**
  * Класс содержащий main метод.
@@ -25,9 +24,9 @@ public class StartPoint
         //EqualsLesson.startLessonExample();
         //InheritLesson.startLessonExample();
 
-        TryCatchLesson.startLessonExample();
-        AbstractClassLesson.startLessonExample();
-
+        //TryCatchLesson.startLessonExample();
+        //AbstractClassLesson.startLessonExample();
+        InterfaceLesson.startLessonExample();
 
 
         //ПримерЗакоментированогоУрокаЧтоБыОнНеВыполнялся.startLessonExample()

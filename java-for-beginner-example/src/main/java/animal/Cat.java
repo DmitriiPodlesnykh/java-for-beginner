@@ -1,6 +1,9 @@
 package animal;
 
-public class Cat {
+import object.MoveObject;
+
+public class Cat implements MoveObject
+{
 
     private static int weight = 100;
 
@@ -24,5 +27,17 @@ public class Cat {
     {
         int currentWeight = weight;
         return currentWeight;
+    }
+
+    @Override
+    public void move(final int distance)
+    {
+        ///
+    }
+
+    @Override
+    public int getDistance()
+    {
+        return 0;
     }
 }
