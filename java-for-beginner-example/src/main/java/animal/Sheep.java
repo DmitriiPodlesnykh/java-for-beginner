@@ -7,7 +7,7 @@ import java.util.Objects;
  */
 public class Sheep extends Animal
 {
-    private String name = "default name";
+    private String name = "sheep default name";
 
     private int countLegs = 4;
 
