@@ -6,7 +6,7 @@ public abstract class Animal
     public Animal()
     {
         super();
-        System.out.println("Animal constructor");
+        System.out.println("Animal constructor changed");
     }
 
 
