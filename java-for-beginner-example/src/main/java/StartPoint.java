@@ -1,4 +1,4 @@
-import lesson.InterfaceLesson;
+import lesson.ArrayListLesson;
 
 /**
  * Класс содержащий main метод.
@@ -26,8 +26,8 @@ public class StartPoint
 
         //TryCatchLesson.startLessonExample();
         //AbstractClassLesson.startLessonExample();
-        InterfaceLesson.startLessonExample();
-
+        //InterfaceLesson.startLessonExample();
+        ArrayListLesson.startLessonExample();
 
         //ПримерЗакоментированогоУрокаЧтоБыОнНеВыполнялся.startLessonExample()
     }
