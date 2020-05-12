@@ -1,5 +1,18 @@
 # История:
 
+## 13.05.2020
+### Что было:
+1. ArrayList vs LinkedList
+
+### Что почитать:
+1. https://www.baeldung.com/java-arraylist-linkedlist - краткое сравнение
+1. https://habr.com/en/post/128269/ - очень подробно про ArrayList
+1. https://habr.com/en/post/127864/ - очень подробно про LinkedList
+
+
+### Рекомендуется выполнить:
+предыдущую домашку.
+
 ## 07.05.2020
 ### Что было:
 1. ArrayList

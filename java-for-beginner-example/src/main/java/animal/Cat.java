@@ -9,6 +9,8 @@ public class Cat implements MoveObject
 
     public static String name = "Барсик";
 
+    public int currentDistance = 0;
+
     public static void drink()
     {
         System.out.println("Cat drink");
@@ -32,6 +34,7 @@ public class Cat implements MoveObject
     @Override
     public void move(final int distance)
     {
+        currentDistance = currentDistance + distance;
         ///
     }
 
@@ -44,6 +47,9 @@ public class Cat implements MoveObject
     @Override
     public String toString()
     {
-        return "Cat{}";
+        return "Cat{"
+        + "name = " + name
+        + "current distane = " + currentDistance
+                + "}";
     }
 }
