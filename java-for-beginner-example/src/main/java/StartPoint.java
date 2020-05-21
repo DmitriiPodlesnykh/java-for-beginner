@@ -1,4 +1,9 @@
-import lesson.ArrayListLesson;
+import lesson.CheckBoolean;
+import lesson.Lesson;
+import lesson.SetLesson;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Класс содержащий main метод.
@@ -17,6 +22,22 @@ public class StartPoint
      */
     public static void main(String[] args)
     {
+
+        List<Lesson> lessonList = prepareLessonList();
+
+        for(Lesson lesson : lessonList)
+        {
+            lesson.startLessonExample();
+        }
+
+        SetLesson setLesson = new SetLesson();
+
+        Lesson lesson = new SetLesson();
+        lesson.startLessonExample();
+
+        CheckBoolean checkBoolean = new SetLesson();
+        checkBoolean.returnTrue();
+
         //ClassLesson.startLessonExample(); //02.04.2020
         //InstanceIntroLesson.startLessonExample(); //07.04.2020
         //NullLesson.startLessonExample();//09.04.2020
@@ -27,9 +48,18 @@ public class StartPoint
         //TryCatchLesson.startLessonExample();
         //AbstractClassLesson.startLessonExample();
         //InterfaceLesson.startLessonExample();
-        ArrayListLesson.startLessonExample();
+        //ArrayListLesson.startLessonExample();
 
         //ПримерЗакоментированогоУрокаЧтоБыОнНеВыполнялся.startLessonExample()
+    }
+
+    private static List<Lesson> prepareLessonList()
+    {
+        List<Lesson> lessonList = new ArrayList<>();
+        //lessonList.add(new AbstractClassLesson());
+        //lessonList.add(new ArrayListLesson());
+        lessonList.add(new SetLesson());
+        return lessonList;
     }
 
 }
