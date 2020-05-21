@@ -5,9 +5,9 @@ import animal.Cat;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-public class ArrayListLesson
+public class ArrayListLesson implements Lesson
 {
-    public static void startLessonExample()
+    public void startLessonExample()
     {
         classInstanceDiffExample();
         diffExample();

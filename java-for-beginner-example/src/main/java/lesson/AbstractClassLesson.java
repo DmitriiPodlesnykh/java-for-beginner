@@ -4,9 +4,9 @@ import animal.Animal;
 import animal.Sheep;
 import animal.Tiger;
 
-public class AbstractClassLesson
+public class AbstractClassLesson implements Lesson
 {
-    public static void startLessonExample()
+    public void startLessonExample()
     {
         //Animal animal = new Animal() //invalid
 
