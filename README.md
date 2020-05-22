@@ -1,5 +1,18 @@
 # История:
 
+## 22.05.2020
+### Что было:
+1. HashCode, Equals
+1. String pool
+
+### Что почитать:
+1. https://javarush.ru/groups/posts/equals-java-sravnenie-strok
+1. https://www.baeldung.com/java-string-pool
+1. http://www.quizful.net/interview/java/equals-equality-difference
+1. https://www.w3schools.com/java/ref_string_equals.asp
+1. https://www.w3schools.com/java/ref_string_equals.asp
+### Рекомендуется выполнить:
+
 ## 13.05.2020
 ### Что было:
 1. ArrayList vs LinkedList
