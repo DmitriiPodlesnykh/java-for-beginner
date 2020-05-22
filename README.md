@@ -11,7 +11,10 @@
 1. http://www.quizful.net/interview/java/equals-equality-difference
 1. https://www.w3schools.com/java/ref_string_equals.asp
 1. https://www.w3schools.com/java/ref_string_equals.asp
+
 ### Рекомендуется выполнить:
+Выбрать/Создать любой класс c 2-4 полями. Переопределить equals&hashcode. Создать несколько экземпляров класса, с разным значением полей.
+Сравнить созданные экземпляры класса по hashcode() и equals(). Результаты сравнения вывести на экран. 
 
 ## 13.05.2020
 ### Что было:
