@@ -4,9 +4,9 @@ import java.util.Objects;
 
 public class Dog
 {
-    private int collar = 0;
+    public int collar = 0;
 
-    private int age = 0;
+    public int age = 0;
 
     public Dog()
     {
@@ -37,6 +37,7 @@ public class Dog
     @Override
     public int hashCode()
     {
+        //return 12321312;
         final int prime = 31;
         int result = 1;
         result = prime * result + age;

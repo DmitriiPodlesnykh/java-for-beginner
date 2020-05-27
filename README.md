@@ -1,5 +1,28 @@
 # История:
 
+## 26.05.2020
+### Что было:
+1. HashSet
+
+### Что почитать:
+1. https://javarush.ru/groups/posts/2147-hashset-v-java - HashSet
+1. https://www.callicoder.com/java-hashset/ - HashSet
+1. https://www.youtube.com/watch?v=WPcKwA5WF7s - HashSet
+1. https://habr.com/en/post/168195/ - Разбираемся с hashCode() и equals()
+
+### Рекомендуется выполнить:
+Создать класс House, который должен содержать внутри себя следующие поля:
+* public Street street //класс Street должен хотя бы содержать поле name
+* public int numberOfHouseResidents
+* public List<Integer> apartmentNumber
+* переопределить toString() метод.
+
+Создать 3 экземпляра класса, два из которых содержат одинаковые значения полей. Добить в коллекцию HashSet.
+Вывести на экран список всех входящих в коллекцию значений и ее размер. Убедиться, что выведутся все три дома,
+хотя 2 из них будут с одинаковыми значениями. Возмутиться. Переопредеть equals() и hashcode() методы для классов Street и House.
+Вывести на экран список всех входящих в коллекцию значений и ее размер.
+Размер коллекции будет 2, один из домов дубликатов не добавится.
+
 ## 22.05.2020
 ### Что было:
 1. HashCode, Equals
@@ -10,7 +33,7 @@
 1. https://www.baeldung.com/java-string-pool
 1. http://www.quizful.net/interview/java/equals-equality-difference
 1. https://www.w3schools.com/java/ref_string_equals.asp
-1. https://www.w3schools.com/java/ref_string_equals.asp
+1. https://www.w3schools.com/java/ref_string_hashcode.asp
 
 ### Рекомендуется выполнить:
 Выбрать/Создать любой класс c 2-4 полями. Переопределить equals&hashcode. Создать несколько экземпляров класса, с разным значением полей.
