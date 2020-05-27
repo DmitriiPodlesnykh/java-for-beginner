@@ -36,7 +36,8 @@ public class StartPoint
         //lessonList.add(new AbstractClassLesson());
         //lessonList.add(new ArrayListLesson());
         //lessonList.add(new SetLesson());
-        lessonList.add(new EqualsHashCodeLesson());
+        //lessonList.add(new EqualsHashCodeLesson());
+        lessonList.add(new SetLesson());
         return lessonList;
     }
 
